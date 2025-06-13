@@ -1,0 +1,61 @@
+# 构建目录和编译产物
+/build/
+/bin/
+/lib/
+/out/
+/cmake-build-*/
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.exe
+*.a
+*.lib
+*.la
+*.lo
+*.out
+*.app
+
+# CMake生成的文件
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# IDE和编辑器配置文件
+.vscode/
+.idea/
+.vs/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+
+# 操作系统生成的临时文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 依赖管理工具生成的目录
+/vcpkg_installed/
+/conan/
+
+# 其他临时文件
+/temp/
+/tmp/
+*.log
+*.tmp
+core
+core.*
